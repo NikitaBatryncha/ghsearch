@@ -1,0 +1,15 @@
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px)
+}
+
+.placeholder__text {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4f4f4f;
+}

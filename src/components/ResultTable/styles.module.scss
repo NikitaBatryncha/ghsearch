@@ -1,0 +1,46 @@
+.table {
+  width: 66.7%;
+  padding: 31px;
+  padding-bottom: 0;
+
+  &__header {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 117%;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: start;
+  }
+
+  &__container {
+    box-shadow: none;
+  }
+
+  &__grid {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  &__row {
+    cursor: pointer;
+  }
+
+  &__label {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+    &__cell {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      letter-spacing: 0.01em;
+      color: rgba(0, 0, 0, 0.87);
+    }
+}
